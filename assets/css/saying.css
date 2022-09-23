@@ -1,0 +1,29 @@
+.saying__cards {
+    display: flex;
+    justify-content: space-between;
+}
+.saying__cards__card {
+    width: 370px;
+    padding: 84px 0 64px 0;
+}
+.saying__cards__card__comment {
+    text-align: center;
+    color: #86878B;
+    padding: 38px 25px;
+    background-color: #E2E2E2;
+    border-radius: 10px;
+}
+.saying__cards__card img {
+    padding-left: 70px;
+}
+.saying__cards__card__person {
+    display: flex;
+    padding-top: 46px;
+
+}
+.saying__cards__card__person img {
+    padding: 0px 30px 0 0;
+}
+.saying__cards__card__person h3 {
+    padding: 19px 0 25px 0;
+}
