@@ -1,0 +1,17 @@
+.awesome__cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 75px 0 58px 0;
+}
+.awesome__cards__card {
+    width: 370px;
+    text-align: center;
+}
+.awesome__cards__card img {
+    display: block;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+.awesome__cards__card h3 {
+    padding: 40px 0 35px 0;
+}
