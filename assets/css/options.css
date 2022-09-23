@@ -1,0 +1,44 @@
+.options {
+    background-color: #F5F5F5;
+}
+.options__cards {
+    display: flex;
+    justify-content: center;
+}
+.options__cards__card {
+    width: 317px;
+    padding: 80px 0 50px 0;
+    margin: 0 15px;
+}
+.options__cards__card p{
+    text-align: center;
+    color: #86878B;
+    padding: 12px 0;
+    background-color: #FFFFFF;
+    border: 2px solid #F5F5F5;
+}
+.options__cards__card .options__cards__card_title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 15px 0;
+    color: #FFF;  
+    background: #333333;
+}
+.options__cards__card .options__cards__card_price {
+    font-weight: 700;
+    font-size: 36px;
+    padding: 29px 0;
+    color: #FFF;
+    background: #333333;
+}
+.options__cards__card .options__cards__card_why {
+    color: rgba(255, 255, 255, 0.5);
+    background: #333333;
+    padding: 15px 0;
+}
+.options__cards__card_up {
+    position: relative;
+    top: -20px;
+    filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
+}

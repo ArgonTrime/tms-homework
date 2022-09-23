@@ -25,13 +25,12 @@ h3 {
     text-align: center;
 }
 .title-block p {
-    font-size: 18px;
     color: #86878B;
     text-align: center;
 }
 .title-block__separator {
     width: 170px;
     height: 0px;
-    border: 1px solid #EC7979;
+    border-bottom: 1px solid #EC7979;
     margin: 0 auto 45px auto;
 }
