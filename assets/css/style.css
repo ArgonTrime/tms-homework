@@ -2,6 +2,7 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 18px;
+    line-height: 21px;
     color: #000;
 }
 
@@ -9,6 +10,11 @@
     width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
+}
+.cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
 }
 
 h2 {
@@ -33,4 +39,99 @@ h3 {
     height: 0px;
     border-bottom: 1px solid #EC7979;
     margin: 0 auto 45px auto;
+}
+
+/* awesome */
+.awesome__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.awesome__card img {
+    display: block;
+    width: 92px;
+    height: 92px;
+    margin: 39px 0 73px 0;
+}
+.awesome__card p {
+    margin-top: 41px;
+}
+.awesome .cards-wrapper {
+    padding: 71px 0 51px 0;
+}
+
+/* options */
+.options {
+    background-color: #F5F5F5;
+}
+.options__card {
+    width: 100%;
+}
+.options__card p {
+    text-align: center;
+    color: #86878B;
+    padding: 12px 0;
+    background-color: #FFFFFF;
+    border: 2px solid #F5F5F5;
+}
+.options__card p:nth-child(1) {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 15px 0;
+    color: #FFF;  
+    background: #333333;
+}
+.options__card p:nth-child(2) {
+    font-weight: 700;
+    font-size: 36px;
+    padding: 29px 0;
+    color: #FFF;
+    background: #333333;
+}
+.options__card p:nth-child(3) {
+    color: rgba(255, 255, 255, 0.5);
+    background: #333333;
+    padding: 15px 0;
+}
+.options__card_up {
+    position: relative;
+    top: -20px;
+    filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
+}
+.options .cards-wrapper {
+    padding: 79px 0 43px 0;
+}
+
+/* saying */
+.saying .cards-wrapper {
+    padding: 83px 0 64px 0;
+}
+.saying__card {
+    width: 100%;
+}
+.saying__card__comment {
+    text-align: center;
+    color: #86878B;
+    padding: 38px 24px;
+    background-color: #E2E2E2;
+    border-radius: 10px;
+    position: relative;
+}
+.saying__card__comment::after {
+    content: url(../images/icons/triangle-gray.svg);
+    position: absolute;
+    bottom: -24px;
+    left: 70px;
+}
+.saying__card__person {
+    display: flex;
+    margin-top: 66px;
+}
+.saying__card__person img {
+    margin-right: 30px;
+}
+.saying__card__person h3 {
+    padding: 20px 0 32px 0;
 }
