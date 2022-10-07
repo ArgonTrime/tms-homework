@@ -41,7 +41,73 @@ h3 {
     margin: 0 auto 45px auto;
 }
 
-/* awesome */
+.icons-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons-block div {
+    padding: 0 23px;
+}
+
+.btn-1 {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 20px 137px;
+    color: #FFF;
+    border: 3px solid #FFF;
+    text-decoration: none;
+}
+.btn-1:hover {
+    color: #EC7979;
+    border: 3px solid #EC7979;
+}
+
+/* header */
+.header {
+    background-color: #000;
+}
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo {
+    margin: 22px 0;
+}
+.header__navigation li {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFF;
+    padding: 34px 32px 30px 32px;
+}
+.header__navigation li:hover {
+    background-color: #EC7979;
+    text-transform: uppercase;
+}
+
+/* social media */
+.social-media {
+    background-color: #F8EFEF;
+}
+.social-media__cotent {
+    display: flex;
+    justify-content: space-between;
+}
+.social-media__info {
+    padding: 20px 0;
+}
+.social-media__info h3 {
+    color: #333333;
+}
+.social-media__info p {
+    margin-top: 43px;
+    color: #86878B;
+}
 .awesome__card {
     display: flex;
     flex-direction: column;
@@ -133,4 +199,38 @@ h3 {
 }
 .saying__card__person h3 {
     padding: 20px 0 32px 0;
+}
+
+/* design */
+.design {
+    background: #000 url(../images/bg-city.png) no-repeat center top / cover;
+}
+.design .title-block h2, .design .title-block p{
+    color: #FFF;
+}
+.design .title-block__separator {
+    border-bottom: 1px solid #FFF;
+}
+.design__button {
+    display: flex;
+    justify-content: center;
+    padding: 73px 0 50px 0;
+}
+
+/* footer */
+.footer {
+    background-color: #000;
+}
+.footer__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0 27px 0;
+}
+.footer__content .icons-block {
+    transform: scale(0.7);
+}
+.footer__content p {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 27px;
 }
