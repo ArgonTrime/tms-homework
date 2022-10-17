@@ -32,6 +32,11 @@ h2 {
 h3 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
+    font-size: 30px;
+}
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
     font-size: 24px;
 }
 
@@ -62,6 +67,10 @@ h3 {
 }
 .icons-block div {
     padding: 0 23px;
+}
+.icons-block img:hover {
+    transform: scale(1.2);
+    transition: all 0.5s ease;
 }
 
 .btn-1 {
@@ -110,6 +119,20 @@ h3 {
     transition: all 0.5s ease;
 }
 .header__navigation li:hover {
+    background-color: #EC7979;
+    text-transform: uppercase;
+}
+.header__navigation a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFF;
+    padding: 34px 32px 30px 32px;
+    transition: all 0.5s ease;
+}
+.header__navigation a:hover {
     background-color: #EC7979;
     text-transform: uppercase;
 }
@@ -163,7 +186,7 @@ h3 {
 .main__form__content span {
     color: #EC7979;
 }
-.main__form__content h3 {
+.main__form__content h4 {
     text-transform: uppercase;
     margin-bottom: 60px;
     color: #333;
@@ -214,7 +237,7 @@ h3 {
 .social-media__info {
     padding: 20px 0;
 }
-.social-media__info h3 {
+.social-media__info h4 {
     color: #333333;
 }
 .social-media__info p {
@@ -238,6 +261,79 @@ h3 {
 }
 .awesome .cards-wrapper {
     padding: 71px 0 51px 0;
+}
+
+/* tabs content */
+.tabs-content {
+    padding: 100px 0 50px 0;
+}
+.tabs {
+    display: inline-block;
+    min-width: 100%;
+}
+.tabs label {
+    display: block;
+    float: left;
+    width: 200px;
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.tabs [id^="tab"]:checked + label::after {
+    position: absolute;
+    content: '';
+    width: 200px;
+    border-bottom: 2px solid #FFF;
+    left: 0px;
+    bottom: -2px;
+}
+.tabs input {
+    display: none;
+    
+}
+.tabs [id^="tab"]:checked + label {
+    border-left: 2px solid #C6CBCD;
+    border-top: 2px solid #C6CBCD;
+    border-right: 2px solid #C6CBCD;
+    border-radius: 5px 5px 0 0;
+}
+#tab-1:checked ~ #tab-content-1, #tab-2:checked ~ #tab-content-2, #tab-3:checked ~ #tab-content-3
+{
+    display: flex;
+    justify-content: space-between;
+}
+.tab-content {
+    display: none;
+    float: left;
+    border: 2px solid #C6CBCD;
+    width: 100%;
+    padding-left: 100px;
+}
+.tab-content .tab-content__left {
+    width: 570px;
+}
+.tab-content .tab-content__left h3 {
+    margin: 50px 0 80px 0;
+}
+.tab-content .tab-content__left p:not(:last-child) {
+    margin-bottom: 25px;
+}
+.tab-content .btn-1 {
+    padding: 20px 90px;
+    margin: 27px 0 50px 0;
+    background-color: #EC7979;
+    color: #FFF;
+    border: none;
+}
+.tab-content .btn-1:hover {
+    background-color: #AB4949;
+}
+.tab-content .btn-1:active {
+    background: #EC7979;
+    box-shadow: inset 0px 0px 10px #AB4949;
 }
 
 /* options */
@@ -310,7 +406,7 @@ h3 {
 .saying__card__person img {
     margin-right: 30px;
 }
-.saying__card__person h3 {
+.saying__card__person h4 {
     padding: 20px 0 32px 0;
 }
 

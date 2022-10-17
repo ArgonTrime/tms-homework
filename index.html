@@ -16,13 +16,11 @@
                     <img src="assets/images/icons/logo.svg" alt="logo-AXIT">
                 </div>
                 <nav class="header__navigation">
-                    <ul>
-                        <li>Features</li>
-                        <li>About</li>
-                        <li>Pricing</li>
-                        <li>Reviews</li>
-                        <li>Contact</li>
-                    </ul>
+                    <a href="#features">Features</a>
+                    <a href="#about">About</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#reviews">Reviews</a>
+                    <a href="#contact">Contact</a>
                 </nav>
             </div>        
         </div>
@@ -41,7 +39,7 @@
                     <form class="main__form">
                         <div class="wrapper-main-form">
                             <fieldset class="main__form__content">
-                                <h3>Try Your <span>FREE</span> Trial Today</h3>
+                                <h4>Try Your <span>FREE</span> Trial Today</h4>
                                 <input type="text" name="login" placeholder="Name">
                                 <input type="email" name="email" placeholder="Email">
                                 <input type="password" name="password" placeholder="Password">
@@ -56,36 +54,79 @@
             <div class="wrapper">
                 <div class="social-media__cotent">
                     <div class="social-media__info">
-                        <h3>Social Media</h3>
+                        <h4>Social Media</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                             Aenean euismod bibendum laoreet.</p>
                     </div>
                     <div class="icons-block">
                         <div>
-                            <img src="assets/images/icons/facebook.svg" alt="facebook">
+                            <a href="#"><img src="assets/images/icons/facebook.svg" alt="facebook"></a>
                         </div>
                         <div>
-                            <img src="assets/images/icons/twitter.svg" alt="twitter">
+                            <a href="#"><img src="assets/images/icons/twitter.svg" alt="twitter"></a>
                         </div>
                         <div>
-                            <img src="assets/images/icons/ln.svg" alt="linkedin"></div>
-                        <div>
-                            <img src="assets/images/icons/pintrest.svg" alt="pintrest">
+                            <a href="#"><img src="assets/images/icons/ln.svg" alt="linkedin"></a>
                         </div>
                         <div>
-                            <img src="assets/images/icons/instagram.svg" alt="instagram">
+                            <a href="#"><img src="assets/images/icons/pintrest.svg" alt="pintrest"></a>
                         </div>
                         <div>
-                            <img src="assets/images/icons/git.svg" alt="git">
+                            <a href="#"><img src="assets/images/icons/instagram.svg" alt="instagram"></a>
                         </div>
                         <div>
-                            <img src="assets/images/icons/rss.svg" alt="rss">
+                            <a href="#"><img src="assets/images/icons/git.svg" alt="git"></a>
+                        </div>
+                        <div>
+                            <a href="#"><img src="assets/images/icons/rss.svg" alt="rss"></a>
                         </div>                     
                     </div>
                 </div>             
             </div>
         </section>
-        <section class="awesome">
+        <section class="tabs-content" id="features">
+            <div class="wrapper">
+                <div class="tabs">
+                    
+                    <input type="radio" name="tabs" id="tab-1" checked>
+                    <label for="tab-1">
+                        <p>tab 1</p>
+                    </label>
+                    <input type="radio" name="tabs" id="tab-2">
+                    <label for="tab-2">
+                        <p>tab 2</p>
+                    </label>
+                    <input type="radio" name="tabs" id="tab-3">
+                    <label for="tab-3">
+                        <p>tab 3</p>
+                    </label>
+                    
+                    <div id="tab-content-1" class="tab-content">
+                        <div class="tab-content__left">
+                            <h3>Tabs with soft transitioning effect.</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                                bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                                justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                                penatibus et magnis dis parturient montes.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                                bibendum laoreet.</p>
+                            <a href="#" class="btn-1">Download</a>
+                        </div>
+                        <div class="tab-content__right">
+                            <img src="assets/images/statue-of-liberty.png" alt="statue-of-liberty">
+                        </div>
+                    </div>
+                    <div id="tab-content-2" class="tab-content">
+                        <p>2</p>
+                    </div>
+                    <div id="tab-content-3" class="tab-content">
+                        <p>3</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="awesome" id="about">
             <div class="wrapper">
                 <div class="title-block">
                     <h2>WHY THIS IS AWESOME</h2>
@@ -95,23 +136,23 @@
                 <div class="cards-wrapper">
                     <div class="awesome__card">
                         <img src="./assets/images/icons/about_icon_1.svg" alt="lamp">
-                        <h3>Thoughtful Design</h3>
+                        <h4>Thoughtful Design</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
                     </div>
                     <div class="awesome__card">
                         <img src="./assets/images/icons/about_icon_2.svg" alt="keyboard">
-                        <h3>Thoughtful Design</h3>
+                        <h4>Thoughtful Design</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
                     </div>
                     <div class="awesome__card">
                         <img src="./assets/images/icons/about_icon_3.svg" alt="lightning">
-                        <h3>Thoughtful Design</h3>
+                        <h4>Thoughtful Design</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="options">
+        <section class="options" id="pricing">
             <div class="wrapper">
                 <div class="title-block">
                     <h2>PRICING OPTIONS</h2>
@@ -155,7 +196,7 @@
                 </div>
             </div>
         </section> 
-        <section class="saying">
+        <section class="saying" id="reviews">
             <div class="wrapper">
                 <div class="title-block">
                     <h2>WHAT OUR CUSTOMERS ARE SAYING</h2>
@@ -174,7 +215,7 @@
                                 <img src="assets/images/avatar-davis.png" alt="davis">
                             </div>
                             <div>
-                                <h3>Davis Rhiel Madsen</h3>
+                                <h4>Davis Rhiel Madsen</h4>
                                 <p>Manager</p>
                             </div>
                         </div>
@@ -190,7 +231,7 @@
                                 <img src="assets/images/avatar-jaydon.png" alt="davis">
                             </div>
                             <div>
-                                <h3>Jaydon Rosser</h3>
+                                <h4>Jaydon Rosser</h4>
                                 <p>Manager</p>
                             </div>
                         </div>
@@ -206,7 +247,7 @@
                                 <img src="assets/images/avatar-cooper.png" alt="davis">
                             </div>
                             <div>
-                                <h3>Cooper Dorwart</h3>
+                                <h4>Cooper Dorwart</h4>
                                 <p>Manager</p>
                             </div>
                         </div>
@@ -227,7 +268,7 @@
                 
             </div>
         </section>
-        <section class="contact">
+        <section class="contact" id="contact">
             <div class="wrapper">
                 <div class="title-block">
                     <h2>CONTACT US</h2>
@@ -257,24 +298,25 @@
             <div class="footer__content">
                 <div class="icons-block">
                     <div>
-                        <img src="assets/images/icons/facebook.svg" alt="facebook">
+                        <a href="#"><img src="assets/images/icons/facebook.svg" alt="facebook"></a>
                     </div>
                     <div>
-                        <img src="assets/images/icons/twitter.svg" alt="twitter">
+                        <a href="#"><img src="assets/images/icons/twitter.svg" alt="twitter"></a>
                     </div>
                     <div>
-                        <img src="assets/images/icons/ln.svg" alt="linkedin"></div>
-                    <div>
-                        <img src="assets/images/icons/pintrest.svg" alt="pintrest">
+                        <a href="#"><img src="assets/images/icons/ln.svg" alt="linkedin"></a>
                     </div>
                     <div>
-                        <img src="assets/images/icons/instagram.svg" alt="instagram">
+                        <a href="#"><img src="assets/images/icons/pintrest.svg" alt="pintrest"></a>
                     </div>
                     <div>
-                        <img src="assets/images/icons/git.svg" alt="git">
+                        <a href="#"><img src="assets/images/icons/instagram.svg" alt="instagram"></a>
                     </div>
                     <div>
-                        <img src="assets/images/icons/rss.svg" alt="rss">
+                        <a href="#"><img src="assets/images/icons/git.svg" alt="git"></a>
+                    </div>
+                    <div>
+                        <a href="#"><img src="assets/images/icons/rss.svg" alt="rss"></a>
                     </div>                     
                 </div>
                 <p>© 2015 Axure Themes</p>
