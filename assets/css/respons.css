@@ -1,0 +1,292 @@
+@media screen and (max-width: 1200px) {
+    * {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .wrapper {
+        width: 992px;
+    }
+    h1 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    h2, h3 {
+        font-size: 18px;
+    }
+    h4 {
+        font-size: 18px;
+    }
+    .title-block__separator {
+        width: 142px;
+    }
+    .header__logo {
+        margin-left: 0;
+    }
+    .main__logo {
+        transform: translate(39px, 39px) scale(1.7);
+    }
+    .main .title-block {
+        max-width: 454px;
+    }
+    .main .title-block__separator {
+        width: 115px;
+    }
+    .main .title-block p {
+        width: 183px;
+    }
+    .main .btn-1 {
+        padding: 20px 48px;
+    }
+    .main__form {
+        width: 398px;
+    }
+    .wrapper-main-form {
+        width: 298px;
+    }
+    .icons-block img {
+        transform: scale(0.8);
+    }
+    .icons-block div {
+        padding: 0 15px;
+    }
+    .icons-block div:last-child {
+        padding-right: 0;
+    }
+    .icons-block div:first-child {
+        padding-left: 0;
+    }
+    .social-media__info p {
+        margin-top: 35px;
+    }
+    .tabs__content {
+        padding-left: 80px;
+    }
+    .tabs__content .tabs__content__left {
+        width: 482px;
+    }
+    .tabs__content__right img {
+        transform: scale(0.8);
+    }
+    .tabs label:has(input:checked)::after {
+        bottom: -3px;
+    }
+    .saying__card__comment::after {
+        bottom: -22px;
+    }
+    .design__button .btn-1 {
+        padding: 20px 112px;
+    }
+    .contact__form__content .left, .contact__form__content .right {
+        width: 480px;
+    }
+    .contact .btn-1 {
+        padding: 20px 112px;
+    }
+    .footer__content .icons-block {
+        transform: scale(0.6);
+    }
+}
+
+@media screen and (max-width: 1022px) {
+    .wrapper {
+        width: 720px;
+    }
+    h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .main__logo {
+        transform: translate(32px, 32px) scale(1.6);
+    }
+    .main .title-block {
+        max-width: 340px;
+    }
+    .icons-block img {
+        transform: scale(0.6);
+    }
+    .icons-block div {
+        padding: 0;
+    }
+
+    .tabs__content {
+        padding-left: 30px;
+    }
+    .tabs__content .tabs__content__left {
+        width: 300px;
+    }
+    .tabs__content__right img {
+        transform: scale(0.8);
+    }
+    .tabs label:has(input:checked)::after {
+        bottom: -3px;
+    }
+    .contact__form__content .left, .contact__form__content .right {
+        width: 345px;
+    }
+    .design__button .btn-1, .contact .btn-1 {
+        padding: 20px 70px;
+    }
+    .cards-wrapper {
+        column-gap: 10px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    * {
+        font-size: 13px;
+    }
+    h2, h3 {
+        font-size: 14px;
+    }
+    h4 {
+        font-size: 14px;
+    }
+    .wrapper {
+        width: 290px;
+    }
+    .header__burger {
+        display: block;
+    }
+    .header__navigation {
+        display: none;
+    }
+    .main {
+        padding: 80px 0 50px 0;
+    }
+    .main__logo {
+        display: none;
+    }
+    .main .title-block {
+        max-width: 100%;
+    }
+    .main .title-block h1 {
+        text-align: center;
+        padding-top: 0;
+    }
+    .main .title-block p {
+        width: 100%;
+        text-align: center;
+    }
+    .main__content {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .main .title-block__separator, .title-block__separator {
+        width: 134px;
+    }
+    .main .title-block__separator {
+        margin: 0 auto;
+        margin-bottom: 45px;
+    }
+    .main .btn-1 {
+        width: 100%;
+        padding: 20px 0;
+        text-align: center;
+    }
+    .main__form {
+        width: 100%;
+    }
+    .wrapper-main-form {
+        width: 240px;
+    }
+    .social-media__cotent {
+        flex-wrap: wrap;
+    }
+    .social-media__cotent .icons-block {
+        min-width: 100%;
+        transform: scale(0.8);
+    }
+    .social-media__info {
+        text-align: center;
+    }
+    .icons-block {
+        margin-bottom: 30px;
+    }
+    .tabs label {
+        width: 95px;
+    }
+    .tabs label:has(input:checked)::after {
+        width: 95px;
+    }
+    .tabs__content__right {
+        display: none;
+    }
+    .tabs__content__left {
+        text-align: center;
+        width: 100%;
+    }
+    .tabs__content {
+        padding: 0 20px;
+    }
+    .tabs__content .btn-1 {
+        width: 242px;
+        padding: 20px 0px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .tabs__content .tabs__content__left h3 {
+        width: 180px;
+        text-align: center;
+        margin: 50px auto 80px auto;
+    }
+    .tabs label:has(input:checked) + .tabs__content {
+        max-width: 245px;
+    }.features {
+        padding: 40px 0 0 0;
+    }
+    .title-block h2 {
+        padding: 50px 0 30px 0;
+    }
+    .cards-wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        column-gap: 30px;
+    }
+    .options__card_up {
+        margin-top: 0;
+        filter: none;
+    }
+    .options__card:not(:last-child){
+        margin-bottom: 25px;
+    }
+    .saying__card:not(:nth-child(2)) {
+        display: none;
+    }
+    .saying__card__dots {
+        display: flex;
+        width: 130px;
+        margin: 70px auto 25px auto;
+        justify-content: space-between;
+    }
+    .saying__card__dots .saying__card__dot:nth-child(2) {
+        background-color: #86878B;
+    }
+    .design__button .btn-1 {
+        padding: 20px 0;
+        width: 100%;
+        text-align: center;
+    }
+    .contact__button {
+        width: 100%;
+    }
+    .contact__button .btn-1  {
+        padding: 20px 0;
+        width: 100%;
+        text-align: center;
+    }
+    .contact__form__content .left, .contact__form__content .right {
+        width: 100%;
+    }
+    .contact__form__content {
+        flex-wrap: wrap;
+    }
+    .contact__form textarea {
+        margin-top: 50px;
+    }
+    .footer__content .icons-block {
+        transform: scale(0.8);
+    }
+
+}
