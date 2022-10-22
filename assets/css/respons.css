@@ -107,7 +107,10 @@
     .icons-block div {
         padding: 0;
     }
-
+    .icons-block img:hover {
+        transform: scale(0.8);
+        transition: all 0.5s ease;
+    }
     .tabs__content {
         padding-left: 30px;
     }
@@ -144,6 +147,12 @@
     .wrapper {
         width: 290px;
     }
+    .title-block h2 {
+        padding: 50px 0 50px 0;
+    }
+    .title-block__separator {
+        margin: 0 auto 26px auto;
+    }
     .header__burger {
         display: block;
     }
@@ -162,6 +171,7 @@
     .main .title-block h1 {
         text-align: center;
         padding-top: 0;
+        padding-bottom: 50px;
     }
     .main .title-block p {
         width: 100%;
@@ -202,6 +212,10 @@
     .icons-block {
         margin-bottom: 30px;
     }
+    .icons-block img:hover {
+        transform: scale(0.8);
+        transition: all 0.5s ease;
+    }
     .tabs label {
         width: 95px;
     }
@@ -232,8 +246,12 @@
     }
     .tabs label:has(input:checked) + .tabs__content {
         max-width: 245px;
-    }.features {
+    }
+    .features {
         padding: 40px 0 0 0;
+    }
+    .awesome .cards-wrapper {
+        padding: 45px 0 60px 0;
     }
     .title-block h2 {
         padding: 50px 0 30px 0;
@@ -251,13 +269,19 @@
     .options__card:not(:last-child){
         margin-bottom: 25px;
     }
+    .options .cards-wrapper {
+        padding: 24px 0 27px 0;
+    }
     .saying__card:not(:nth-child(2)) {
         display: none;
+    }
+    .saying .cards-wrapper {
+        padding: 23px 0 30px 0;
     }
     .saying__card__dots {
         display: flex;
         width: 130px;
-        margin: 70px auto 25px auto;
+        margin: 32px auto 0 auto;
         justify-content: space-between;
     }
     .saying__card__dots .saying__card__dot:nth-child(2) {
@@ -267,6 +291,9 @@
         padding: 20px 0;
         width: 100%;
         text-align: center;
+    }
+    .contact__form {
+        padding: 64px 0 50px 0;
     }
     .contact__button {
         width: 100%;
